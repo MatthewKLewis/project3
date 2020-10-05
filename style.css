@@ -1,0 +1,21 @@
+*{ font-family: monospace;}
+
+#randomCatImage {
+    width: 200px;
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    transition: 200ms;
+} .grid-item:hover { width: 210px; height: 210px; background-color: darkgray;}
