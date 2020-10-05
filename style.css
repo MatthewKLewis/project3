@@ -1,21 +1,56 @@
-*{ font-family: monospace;}
-
-#randomCatImage {
-    width: 200px;
-    height: 200px;
-}
+*{font-family: 'Major Mono Display', monospace; background-color: black; color: white;}
 
 .grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
+    transition: 200ms;
 }
 
-.grid-item {
+.gridItem {
     width: 200px;
     height: 200px;
     background-color: grey;
+    color: white;
     margin: 10px;
     padding: 10px;
     transition: 200ms;
-} .grid-item:hover { width: 210px; height: 210px; background-color: darkgray;}
+    border: none;
+    border-radius: 200px;
+} .gridItem:hover { width: 210px; height: 210px; background-color: darkgray;}
+
+.modal {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+#fullWidthButton {
+    grid-column: 1 / span 2;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.transparent {
+    opacity: 20%;
+}

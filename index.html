@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Three</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>Project Three</h1>
-    <div class="grid">
-        <img id="randomCatImage" class="grid-item" src="#" onclick="getapi(api_url, setAttributeOfImage)">
+    <h1>random planets from the star wars universe</h1>
+
+    <div class="grid"></div>
+
+    <div class="modal hidden">
+        <h2>name</h2>           <h2 id="modalName">a</h2>
+        <p>climate</p>          <p id="modalClimate">b</p>
+        <p>diameter</p>         <p id="modalDiameter">c</p>
+        <p>gravity</p>          <p id="modalGravity">d</p>
+        <p>orbital period</p>   <p id="modalOPeriod">e</p>
+        <p>population</p>       <p id="modalPopulation">f</p>
+        <p>terrain</p>          <p id="modalTerrain">z</p>
+        <button id="fullWidthButton" onclick="expand()" class="closeButton">close</button>
     </div>
 
     <script src="script.js"></script>
