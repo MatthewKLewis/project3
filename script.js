@@ -1,4 +1,22 @@
-// Load more grid DIVs on scroll
+//               ________
+//          _,.-Y  |  |  Y-._
+//       " ""=="|" !""! "|"[]""      _____
+//      L__  [] |..------|:   _[----I" .-{"-.
+//     I___|  ..| l______|l_ [__L]_[I_/r(=}=-|
+//    [L______L_[________]______j~  '-=c_]/=-^
+//     \_I_j.--.\==I|I==_/.--L_]
+//       [_((==)[`-----"](==)j
+//          I--I"~~"""~~"I--I       Matthew Lewis's P3
+//          |[]|         |[]|       Modal UI
+//          |!!|         |!!|       SWAPI: Planets
+//          ([])         ([])       Infini-Scroll (beta)
+//          ]--[         ]--[       
+//          [_L]         [_L] 
+//         /|..|\       /|..|\
+//        `=}--{='     `=}--{='
+//       .-^--r-^-.   .-^--r-^-.
+//----------------------------------------------------------
+
 const api_url = "http://swapi.dev/api/planets/";
 
 let grid = document.querySelector('.grid');
@@ -65,8 +83,7 @@ function spawnMorePlanets() {
 }
 
 //START ---------------------------------------------------------
-//Create Grid Elements
-
+//Create the first Eight
 
 for (let i = 0; i < 8; i++) {
     totalPlanetsIndex++;
