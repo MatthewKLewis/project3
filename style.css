@@ -19,7 +19,7 @@
 
 @keyframes color {
     0% {background-color: rgb(119, 158, 152);}
-    50% {background-color: rgb(132, 196, 186);}
+    30% {background-color: rgb(132, 196, 186);}
     100% {background-color: rgb(119, 158, 152);}
 }
 
