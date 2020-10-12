@@ -38,7 +38,7 @@ let expanded = false;
 let totalPlanetsIndex = 0;
 
 async function populateButtonfromAPIinfo(int) { 
-    let response = await fetch(api_url + int.toString());
+    let response = await fetch(api_url + int.toString() + '/');
     data = await response.json();
 
     tempDiv = document.createElement('button');
