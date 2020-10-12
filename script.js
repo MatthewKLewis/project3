@@ -17,7 +17,7 @@
 //       .-^--r-^-.   .-^--r-^-.
 //----------------------------------------------------------
 
-const api_url = "http://swapi.dev/api/planets/";
+const api_url = "https://swapi.dev/api/planets/";
 
 let grid = document.querySelector('.grid');
 let modal = document.querySelector('.modal')
@@ -89,3 +89,5 @@ for (let i = 0; i < 8; i++) {
     totalPlanetsIndex++;
     populateButtonfromAPIinfo(i+1);
 }
+
+setTimeout(function(){console.log(document.querySelector('button'))}, 2000);
